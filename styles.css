@@ -6,11 +6,11 @@
   
   :root {
     --light-gray: #dfdfe2;
-    --dark-blue: #0a0a23;
+    --light-green: #109754;
   }
   
   body {
-    background-color: var(--dark-blue);
+    background-color: var(--light-green);
     color: var(--light-gray);
   }
   
@@ -21,12 +21,6 @@
     justify-content: center;
     flex-direction: column;
     padding: 40px 10px;
-  }
-  
-  .freecodecamp-logo {
-    width: 100%;
-    height: 30px;
-    margin-bottom: 20px;
   }
   
   h1 {
@@ -68,7 +62,7 @@
   }
   
   .price-screen {
-    border: 10px solid #99c9ff;
+    border: 10px solid #cc240e;
     background-color: black;
     height: 50px;
     width: 200px;
@@ -89,7 +83,7 @@
   
   .connector {
     margin-left: -20px;
-    background-color: #99c9ff;
+    background-color: #c4180c;
     height: 30px;
     width: 40px;
   }
@@ -99,8 +93,8 @@
     justify-content: space-around;
     border-radius: 35px 35px 0 0;
     padding-top: 20px;
-    background-color: #99c9ff;
-    height: 250px;
+    background-color: #2c12c2;
+    height: 350px;
     width: 325px;
   }
   
@@ -134,15 +128,15 @@
     font-size: 1.1rem;
     background-color: white;
     width: 55%;
-    height: 95%;
+    height: 93%;
     color: black;
     padding: 10px;
   }
   
   .bottom-register {
-    background-color: #99c9ff;
+    background-color: #2c12c2;
     height: 50px;
-    width: 325px;
+    width: 356px;
     margin-top: 10px;
   }
   

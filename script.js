@@ -94,5 +94,4 @@ const getChange = (changeD, cid) => {
 const formatChange = changeArray => 
     changeArray.map(([unit, amount]) => `${unit}: $${amount.toFixed(2)}`).join(", ");
 
-// Test case 11 (Expected output: "Status: OPEN QUARTER: $0.50")
-// Test case 12 (Expected output: "Status: OPEN TWENTY: $60.00 TEN: $20.00 FIVE: $15.00 ONE: $1.00 QUARTER: $0.50 DIME: $0.20 PENNY: $0.04")
+
